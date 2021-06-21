@@ -20,7 +20,7 @@ As of 05/01/2021 it seems like apple fixed this issue, but i'll keep it here inc
 1. Run this command:
 
    ```bash
-   sh -c "$(curl -fsSL https://raw.githubusercontent.com/onasman/salt-jsfs-dotfiles/master/script/automation.sh)"
+   sh -c "$(curl -fsSL https://raw.githubusercontent.com/onasman/jsfs-tool-dotfiles/master/script/automation.sh)"
    ```
 
 1. Wait for about 35 minutes per computer
