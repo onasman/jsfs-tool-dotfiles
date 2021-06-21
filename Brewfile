@@ -44,3 +44,8 @@ cask 'spectacle'
 cask 'transmission'
 cask 'visual-studio-code'
 cask 'github'
+cask 'typora'
+cask 'postico'
+cask 'imageoptim'
+cask 'spotify'
+

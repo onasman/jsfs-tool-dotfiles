@@ -1,9 +1,3 @@
-# jsfullstackdev-dotfiles
-
-With these files and scripts we have configured the development machines we are using in the FullStack Javascript developer course.
-
-All your computers has been preconfigured by running the bootstrapping scripts as described below.
-
 ## Installation description
 
 Sadly this installation cannot be done with one single command, due to some agreement signing needed for XCode tools. However, it's is not that bad - just two commands:
@@ -16,9 +10,8 @@ Sadly this installation cannot be done with one single command, due to some agre
 
    > The above command will trigger installation of xCode developer tools. Agree to the installation.
    > Once the installation is done, rerun the oh-my-zsh installation above.
-   
 
- As of 05/01/2021 it seems like apple fixed this issue, but i'll keep it here incase of.
+As of 05/01/2021 it seems like apple fixed this issue, but i'll keep it here incase of.
 
 ~~09/10/2020 the installation of xCode Command Line Tools does not work as intented, another way of getting those is via this [link](https://developer.apple.com/download/more/?=command%20line%20tools) . Note that you have to sign in with your AppleID.~~
 
@@ -27,7 +20,7 @@ Sadly this installation cannot be done with one single command, due to some agre
 1. Run this command:
 
    ```bash
-   sh -c "$(curl -fsSL https://raw.githubusercontent.com/appliedtechnology/salt-jsfs-dotfiles/master/script/saltAutomation.sh)"
+   sh -c "$(curl -fsSL https://raw.githubusercontent.com/onasman/salt-jsfs-dotfiles/master/script/automation.sh)"
    ```
 
 1. Wait for about 35 minutes per computer
