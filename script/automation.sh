@@ -1,7 +1,6 @@
 #!/usr/bin/env zsh
 
 echo ">>>>Updating OSX stuff"
-sudo softwareupdate -i -a
 sudo spctl --master-disable ## Disables security stuff in catalina that will drive the devs crazy
 
 echo ">>>>>Installing homebrew"
