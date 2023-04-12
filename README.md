@@ -23,7 +23,7 @@ As of 05/01/2021 it seems like apple fixed this issue, but i'll keep it here inc
    sh -c "$(curl -fsSL https://raw.githubusercontent.com/onasman/onasman-dotfiles/master/script/automation.sh)"
    ```
 
-1. Wait for about 35 minutes per computer
+1. Wait for about 35 minutes
 
 1. You might wanna reinstall xcode commandline tools
 
@@ -33,8 +33,6 @@ As of 05/01/2021 it seems like apple fixed this issue, but i'll keep it here inc
    ```
 
 ### Oh no - I've installed the wrong things and it's failing - do I need to reinstall the entire computer
-
-(This section might or might not be written after a horrible incident... by Marcus).
 
 No worries - you can easily scrap the installations of both our dotfiles and the OhMyZsh, with these simple commands:
 
